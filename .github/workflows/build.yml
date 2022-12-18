@@ -15,5 +15,6 @@ jobs:
 
             - name: Test
               run: |
+                  ls -l
                   go build .
                   go test -v
